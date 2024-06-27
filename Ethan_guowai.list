@@ -13,6 +13,8 @@ DOMAIN-SUFFIX,reddituploads.com
 DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net
 DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com
 
+# snapchat
+DOMAIN-SUFFIX,snapchat.com
 # NAME: Quora
 DOMAIN-SUFFIX,quora.com
 
