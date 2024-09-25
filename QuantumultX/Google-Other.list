@@ -1,7 +1,9 @@
-# NAME: Googleother
-# AUTHOR: Ethan
-# 该列表指向Google策略分组，用于EthanMac 自用规则
+## NAME: Googleother
+## AUTHOR: Ethan
+## 该列表指向Google策略分组，用于EthanMac 自用规则
+## ------------------
 
+# Google Other
 HOST,alt1-mtalk.google.com,Global
 HOST,alt2-mtalk.google.com,Global
 HOST,alt3-mtalk.google.com,Global
@@ -11,6 +13,8 @@ HOST,alt6-mtalk.google.com,Global
 HOST,alt7-mtalk.google.com,Global
 HOST,alt8-mtalk.google.com,Global
 HOST,scc.ott.hinet.net,Global
+
+# Global scholar
 HOST,scholar.google.ae,Global
 HOST,scholar.google.at,Global
 HOST,scholar.google.be,Global
