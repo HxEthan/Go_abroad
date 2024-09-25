@@ -48,19 +48,33 @@ private-ip-answer = false
 # 开启订阅筛选的代理分组，示例：
 # 名称=类型(如select,url-test,fallback,load-balance,random),订阅名称(多个订阅时,用逗号分隔),use=true,policy-regex-filter=正则式或关键词筛选(省略该参数时,表示匹配对应订阅的全部节点),interval=测试周期,timeout=超时时间,tolerance=公差,policy-select-name=指定选择的节点备注名称,select=默认策略(0表示第一个策略,1表示第二个策略,2表示第三个策略……),url=测试地址
 
-Google = url-test,policy-select-name=🇭🇰HONGKONG-SPARE@632,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=香港|🇭🇰|HONGKONG|Hong
-Meta = url-test,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=香港|🇭🇰|HONGKONG|Hong
-YouTube = url-test,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=香港|🇭🇰|HONGKONG|Hong
-AI = url-test,FLYINGBIRD,use=true,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=Singapore
-X = url-test,RSS.OKGGRSS.TOP,FLYINGBIRD,use=true,url=http://www.gstatic.com/generate_204,policy-regex-filter=🇭🇰|H,policy-select-name=HONG KONG-20,timeout=5,tolerance=20,interval=600
-Spotify = url-test,RSS.OKGGRSS.TOP,FLYINGBIRD,use=true,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=Singapore
-Telegram = url-test,RSS.OKGGRSS.TOP,FLYINGBIRD,use=true,url=http://www.gstatic.com/generate_204,policy-regex-filter=🇭🇰|H,policy-select-name=HONG KONG-05,timeout=5,tolerance=20,interval=600
-TikTok = url-test,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=香港|🇭🇰|HONGKONG|Hong
-Netflix = url-test,RSS.OKGGRSS.TOP,use=true,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=🇭🇰
-Disney+ = url-test,RSS.OKGGRSS.TOP,use=true,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=🇭🇰
-Steam = url-test,RSS.OKGGRSS.TOP,use=true,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=🇭🇰
-国外应用 = url-test,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=香港|🇭🇰|HONGKONG|Hong
+Google = select,AUTO_HK,AUTO_SG,AUTO_TW,AUTO_JP,AUTO_US,AUTO_KR,HK,TW,SG,JP,KR,US,UK,GLOBAL,policy-select-name=AUTO_HK,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
+Meta = select,AUTO_HK,AUTO_SG,AUTO_TW,AUTO_JP,AUTO_US,AUTO_KR,HK,TW,SG,JP,KR,US,UK,GLOBAL,policy-select-name=AUTO_HK,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
+YouTube = select,AUTO_HK,AUTO_SG,AUTO_TW,AUTO_JP,AUTO_US,AUTO_KR,HK,TW,SG,JP,KR,US,UK,GLOBAL,policy-select-name=AUTO_HK,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
+AI = select,AUTO_SG,AUTO_JP,AUTO_US,AUTO_KR,HK,TW,SG,US,GLOBAL,policy-select-name=AUTO_SG,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
+X = select,AUTO_HK,AUTO_SG,AUTO_TW,AUTO_JP,AUTO_US,AUTO_KR,HK,TW,SG,JP,KR,US,UK,GLOBAL,policy-select-name=AUTO_HK,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
+Spotify = select,AUTO_HK,AUTO_SG,AUTO_TW,AUTO_JP,AUTO_US,AUTO_KR,HK,TW,SG,JP,KR,US,UK,GLOBAL,policy-select-name=AUTO_HK,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
+Telegram = select,AUTO_HK,AUTO_SG,AUTO_TW,AUTO_JP,AUTO_US,AUTO_KR,HK,TW,SG,JP,KR,US,UK,GLOBAL,policy-select-name=AUTO_HK,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
+TikTok = select,AUTO_SG,AUTO_TW,AUTO_JP,AUTO_US,AUTO_KR,TW,SG,JP,KR,US,UK,GLOBAL,policy-select-name=AUTO_JP,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
+Netflix = select,AUTO_HK,AUTO_SG,AUTO_TW,AUTO_JP,AUTO_US,AUTO_KR,HK,TW,SG,JP,KR,US,UK,GLOBAL,policy-select-name=AUTO_HK,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
+Disney+ = select,AUTO_HK,AUTO_SG,AUTO_TW,AUTO_JP,AUTO_US,AUTO_KR,HK,TW,SG,JP,KR,US,UK,GLOBAL,policy-select-name=AUTO_HK,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
+Steam = select,AUTO_HK,AUTO_SG,AUTO_TW,AUTO_JP,AUTO_US,AUTO_KR,HK,TW,SG,JP,KR,US,UK,GLOBAL,policy-select-name=AUTO_HK,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
+国外应用 = select,AUTO_HK,AUTO_SG,AUTO_TW,AUTO_JP,AUTO_US,AUTO_KR,HK,TW,SG,JP,KR,US,UK,GLOBAL,policy-select-name=AUTO_HK,interval=600,timeout=5,url=http://www.gstatic.com/generate_204
 直接连接 = select, DIRECT
+Auto_HK = url-test,policy-select-name=,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=香港|港|hong|Hong|HK|HKG|🇭🇰|Hong Kong
+Auto_SG = url-test,policy-select-name=,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=狮城|新加坡|🇸🇬|SG|Singapore
+Auto_TW = url-test,policy-select-name=,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=台湾|TW|Taiwan|台
+Auto_JP = url-test,policy-select-name=,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=日本|Tokyo|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|JP|Japan
+Auto_US = url-test,policy-select-name=,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=美|美国|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|🇺🇸|US
+Auto_KR = url-test,interval=600,tolerance=20,timeout=5,url=http://www.gstatic.com/generate_204,policy-regex-filter=KR|韩国|kr|🇰🇷|Korea
+HK = select,policy-regex-filter=香港|港|hong|Hong|HK|HKG|🇭🇰|Hong Kong
+TW = select,policy-regex-filter=台湾|TW|Taiwan|台
+SG = select,policy-regex-filter=狮城|新加坡|🇸🇬|SG|Singapore
+JP = select,policy-regex-filter=日本|Tokyo|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|JP|Japan
+KR = select,policy-regex-filter=KR|韩国|kr|🇰🇷|Korea
+US = select,policy-regex-filter=美|美国|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|🇺🇸|US
+UK = select,policy-regex-filter=英|英国|uk|🇬🇧|UK
+Global = select,policy-regex-filter=Manila|KualaLumpur|Argentina|Turkey|Malaysia
 
 [Rule]
 # 规则类型：
