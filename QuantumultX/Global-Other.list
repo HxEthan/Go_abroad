@@ -8,3 +8,13 @@ HOST-SUFFIX,javday.tv,国外应用
 HOST-SUFFIX,missav.com,国外应用
 HOST-SUFFIX,91porn.com,国外应用
 HOST-SUFFIX,pornhub.com,国外应用
+
+# NAME: Reddit
+HOST-SUFFIX,redd.it,Reddit
+HOST-SUFFIX,reddit.com,Reddit
+HOST-SUFFIX,redditmail.com,Reddit
+HOST-SUFFIX,redditmedia.com,Reddit
+HOST-SUFFIX,redditstatic.com,Reddit
+HOST-SUFFIX,reddituploads.com,Reddit
+HOST-SUFFIX,reddituploads.com.cdn-cf.behance.net,Reddit
+HOST-SUFFIX,reddituploads.com.cdn-cf.dropbox.com,Reddit
