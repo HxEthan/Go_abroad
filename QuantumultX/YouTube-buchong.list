@@ -1,4 +1,7 @@
 ## NAME: Youtube补充
 ## AUTHOR: Ethan
 ## 用于补充规则集不包含的网站，策略指向「Youtube」
+## 下列第一条规则与其他重复，如后续增加可删除
 ## ------------------
+
+HOST-SUFFIX,ytimg.com,YouTube
