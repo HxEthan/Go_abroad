@@ -12,33 +12,37 @@ HOST-KEYWORD,missav,国外应用
 HOST-KEYWORD,xvideos.com,国外应用
 
 # NAME: Reddit
-HOST-SUFFIX,redd.it,Reddit
-HOST-SUFFIX,reddit.com,Reddit
-HOST-SUFFIX,redditmail.com,Reddit
-HOST-SUFFIX,redditmedia.com,Reddit
-HOST-SUFFIX,redditstatic.com,Reddit
-HOST-SUFFIX,reddituploads.com,Reddit
-HOST-SUFFIX,reddituploads.com.cdn-cf.behance.net,Reddit
-HOST-SUFFIX,reddituploads.com.cdn-cf.dropbox.com,Reddit
+HOST-SUFFIX,redd.it,国外应用
+HOST-SUFFIX,reddit.com,国外应用
+HOST-SUFFIX,redditmail.com,国外应用
+HOST-SUFFIX,redditmedia.com,国外应用
+HOST-SUFFIX,redditstatic.com,国外应用
+HOST-SUFFIX,reddituploads.com,国外应用
+HOST-SUFFIX,reddituploads.com.cdn-cf.behance.net,国外应用
+HOST-SUFFIX,reddituploads.com.cdn-cf.dropbox.com,国外应用
 
 # NAME: Wikimedia
-HOST-SUFFIX,mediawiki.org,Wikimedia
-HOST-SUFFIX,toolforge.org,Wikimedia
-HOST-SUFFIX,w.wiki,Wikimedia
-HOST-SUFFIX,wikibooks.org,Wikimedia
-HOST-SUFFIX,wikidata.org,Wikimedia
-HOST-SUFFIX,wikileaks.org,Wikimedia
-HOST-SUFFIX,wikimedia.org,Wikimedia
-HOST-SUFFIX,wikimediacloud.org,Wikimedia
-HOST-SUFFIX,wikimediafoundation.org,Wikimedia
-HOST-SUFFIX,wikinews.org,Wikimedia
-HOST-SUFFIX,wikipedia.com,Wikimedia
-HOST-SUFFIX,wikipedia.org,Wikimedia
-HOST-SUFFIX,wikiquote.org,Wikimedia
-HOST-SUFFIX,wikisource.org,Wikimedia
-HOST-SUFFIX,wikiversity.org,Wikimedia
-HOST-SUFFIX,wikivoyage.org,Wikimedia
-HOST-SUFFIX,wiktionary.org,Wikimedia
-HOST-SUFFIX,wmcloud.org,Wikimedia
-HOST-SUFFIX,wmflabs.org,Wikimedia
-HOST-SUFFIX,wmfusercontent.org,Wikimedia
+HOST-SUFFIX,mediawiki.org,国外应用
+HOST-SUFFIX,toolforge.org,国外应用
+HOST-SUFFIX,w.wiki,国外应用
+HOST-SUFFIX,wikibooks.org,国外应用
+HOST-SUFFIX,wikidata.org,国外应用
+HOST-SUFFIX,wikileaks.org,国外应用
+HOST-SUFFIX,wikimedia.org,国外应用
+HOST-SUFFIX,wikimediacloud.org,国外应用
+HOST-SUFFIX,wikimediafoundation.org,国外应用
+HOST-SUFFIX,wikinews.org,国外应用
+HOST-SUFFIX,wikipedia.com,国外应用
+HOST-SUFFIX,wikipedia.org,国外应用
+HOST-SUFFIX,wikiquote.org,国外应用
+HOST-SUFFIX,wikisource.org,国外应用
+HOST-SUFFIX,wikiversity.org,国外应用
+HOST-SUFFIX,wikivoyage.org,国外应用
+HOST-SUFFIX,wiktionary.org,国外应用
+HOST-SUFFIX,wmcloud.org,国外应用
+HOST-SUFFIX,wmflabs.org,国外应用
+HOST-SUFFIX,wmfusercontent.org,国外应用
+
+# NAME: 机场
+HOST-SUFFIX,okxyz.top,国外应用
+HOST-SUFFIX,hongxingdl.com,国外应用
