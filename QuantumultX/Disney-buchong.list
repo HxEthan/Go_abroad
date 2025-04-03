@@ -2,3 +2,5 @@
 ## AUTHOR: Ethan
 ## 用于补充规则集不包含的网站，策略指向「Disney+」
 ## ------------------
+
+HOST,cdn.registerdisney.go.com,Disney
