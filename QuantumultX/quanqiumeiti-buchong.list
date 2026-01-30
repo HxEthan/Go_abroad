@@ -1,5 +1,0 @@
-## NAME: 全球媒体规则补充
-## AUTHOR: Ethan
-## 用于补充规则集不包含的网站，策略指向「国外应用」
-## ------------------
-HOST-SUFFIX,theguardian.com,国外应用
